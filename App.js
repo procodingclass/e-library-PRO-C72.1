@@ -4,6 +4,10 @@ import * as Font from "expo-font";
 
 import BottomTabNavigator from "./components/BottomTabNavigator";
 
+import { LogBox } from "react-native";
+
+LogBox.ignoreAllLogs();
+
 export default class App extends Component {
   constructor() {
     super();
